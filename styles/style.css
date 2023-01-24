@@ -5,10 +5,6 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-body {
-  margin: 0;
-}
-
 .header {
   background-color: #f2f2f2;
   height: 100vh;
@@ -33,6 +29,7 @@ body {
 }
 
 .header__title {
+  margin: 0;
   font-size: 102px;
   font-weight: 600;
   line-height: 96px;
@@ -43,7 +40,7 @@ body {
   z-index: 3;
 }
 
-.header__title_subtitle {
+.header__subtitle {
   margin: 0;
   font-size: 18px;
   font-weight: normal;
@@ -55,7 +52,7 @@ body {
   z-index: 2;
 }
 
-.header__title_subtitle_link {
+.header__link {
   color: #2f80ed;
   text-decoration: none;
 }
@@ -79,7 +76,7 @@ body {
   z-index: 0;
 }
 
-.paragraph__span-accent {
+.two-columns__span-accent {
   font-weight: 600;
 }
 
@@ -130,7 +127,7 @@ body {
   align-items: center;
 }
 
-.digits__section-title {
+.section-title {
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
@@ -139,7 +136,7 @@ body {
   text-align: center;
 }
 
-.digits__section-subtitle {
+.section-subtitle {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -168,26 +165,25 @@ body {
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
-  margin-top: 0;
-  margin-bottom: 20px;
+  margin: 0;
 }
 
 .table__text {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
+  margin-top: 20px;
 }
 
-.table__text-quote {
-  margin-top: 20px;
+.table__text:last-child {
+  margin-bottom: 0px;
 }
 
 .feynman {
   margin: 0;
   background-color: #f2f2f2;
-  height: 890px;
+  min-height: 890px;
   display: flex;
   position: relative;
   flex-direction: column;
@@ -299,6 +295,7 @@ body {
 }
 
 .kaufman__triangle {
+  background-image: url("./images/kaufman-triangle.svg");
   width: 877px;
   height: 877px;
   position: absolute;
@@ -321,10 +318,12 @@ body {
   width: 90%;
 }
 
-.footer__columns_content_copyright {
+.footer__column_content_copyright {
   margin: 0;
   flex-basis: 711px;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .logo_place_footer {
@@ -336,12 +335,10 @@ body {
 .footer__author {
   text-decoration: none;
   color: #fff;
-  position: absolute;
-  left: 0;
-  bottom: 18px;
+  display: flex;
   line-height: 25px;
   font-size: 18px;
-  font-weight: normal;
+  margin: 18px 0 18px 0;
 }
 
 .footer__column-heading {
@@ -366,10 +363,12 @@ body {
   margin-top: 20px;
   padding: 0;
   padding-bottom: 16px;
+  margin-bottom: 0;
 }
 
 .footer__social-icon {
   margin: 0;
   width: 16px;
   height: 16px;
+  margin-right: 10px;
 }
