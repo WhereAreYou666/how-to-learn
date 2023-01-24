@@ -157,7 +157,7 @@ body {
 }
 
 .table__cell {
-  margin-top: 0;
+  margin: 0;
   width: 250px;
   display: flex;
   flex-direction: column;
