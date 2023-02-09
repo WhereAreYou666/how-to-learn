@@ -1,0 +1,6 @@
+.resources {
+  margin: 0 auto 217px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
