@@ -5,7 +5,7 @@
   color: #2f80ed;
   text-decoration: none;
   position: absolute;
-  bottom: 50%;
+  top: 50%;
   right: 48px;
   z-index: 3;
 }
