@@ -1,4 +1,4 @@
-# [Научиться учиться](https://whereareyou666.github.io/how-to-learn/)
+# Проект: [Научиться учиться](https://whereareyou666.github.io/how-to-learn/)
 
 ## Описание проекта:
   Это первая версия сайта по пректу "Научиться учиться"
